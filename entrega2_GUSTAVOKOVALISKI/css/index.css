@@ -1,4 +1,3 @@
-/* Página inicial */
 .catalog-layout { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 28px; }
 .filters { background: #fff; border-radius: 5px; padding: 18px; height: fit-content; }
 .filters h3 { margin: 0 0 12px; }
@@ -8,6 +7,5 @@
 .filters a:hover { color: #d88900; }
 @media (max-width: 650px) { .catalog-layout { grid-template-columns: 1fr; } }
 
-/* Espaço da bandeira (a imagem ocupa a largura toda, sem cortes) */
 .banner { width: 100%; border-radius: 5px; overflow: hidden; }
 .banner img { width: 100%; height: auto; display: block; }

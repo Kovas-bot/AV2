@@ -1,4 +1,3 @@
-/* GUZ NATION - estilos compartilhados */
 :root {
     --preto: #080808;
     --amarelo: #ffa500;
@@ -70,7 +69,6 @@ a { color: inherit; }
     width: 100%; padding: 12px; border: 1px solid #ccc;
     border-radius: 4px; font: inherit; margin: 6px 0 14px;
 }
-/* Cards de produtos (compartilhado por todas as páginas) */
 .products { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; }
 .product-card { text-align: center; }
 .product-image { height: 150px; background: #f2f2f2; display: grid; place-items: center; color: #777; margin-bottom: 12px; }
