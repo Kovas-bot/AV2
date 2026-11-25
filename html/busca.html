@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUZ NATION | Busca</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/busca.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo"><a href="index.html"><h2>GUZ NATION</h2></a></div>
+    <form class="search" action="busca.html" method="get" role="search">
+        <input type="search" name="q" placeholder="O que você está buscando?" aria-label="Buscar produtos">
+        <button type="submit" aria-label="Pesquisar">🔍</button>
+    </form>
+    <div class="user-actions">
+        <a href="carrinho.html">Carrinho 🛒</a>
+    </div>
+</header>
+<nav class="menu" aria-label="Menu principal">
+    <a href="index.html" class="">Início</a><a href="acessorios.html" class="">Acessórios</a><a href="armaBranca.html" class="">Arma Branca</a><a href="armaDeAirsoft.html" class="">Armas de Airsoft</a><a href="armaDeFogo.html" class="">Armas de Fogo</a><a href="armaDePressao.html" class="">Armas de Pressão</a><a href="arquearia.html" class="">Arquearia</a><a href="camping.html" class="">Camping</a><a href="equipamentos.html" class="">Equipamentos</a><a href="colecionaveis.html" class="">Colecionáveis</a><a href="defesaPessoal.html" class="">Defesa Pessoal</a><a href="manutencao.html" class="">Manutenção</a><a href="materialInstrucao.html" class="">Material de Instrução</a><a href="municoes.html" class="">Munições</a><a href="zonasCaca.html" class="">Zonas de Caça</a>
+</nav>
+
+<section class="page-title">
+    <p class="breadcrumb"><a href="index.html">Início</a> &gt; Busca</p>
+    <h1>Resultados da busca</h1>
+    <p id="busca-resumo">Digite o nome de um produto na barra de pesquisa.</p>
+</section>
+
+<main class="container">
+    <div class="category-toolbar" id="busca-toolbar">
+        <span class="muted">Produtos encontrados</span>
+        <label>Ordenar por:
+            <select class="form-control" style="width:auto;display:inline-block;margin:0 0 0 8px">
+                <option value="relevantes">Mais relevantes</option>
+                <option value="menor">Menor preço</option>
+                <option value="maior">Maior preço</option>
+                <option value="az">A-Z</option>
+            </select>
+        </label>
+    </div>
+    <section class="products" id="busca-resultados"></section>
+    <div class="category-placeholder" id="busca-vazio" hidden></div>
+</main>
+<footer class="footer"><p>© 2026 GUZ NATION - Todos os direitos reservados.</p></footer>
+<script src="../js/catalogo.js"></script>
+<script src="../js/loja.js" defer></script>
+</body>
+</html>
